@@ -1,0 +1,3 @@
+- Shader from https://twitter.com/TheMirzaBeig/status/1485973514024857607
+- Base for the renderer feature: https://github.com/Cyanilux/URP_BlitRenderFeature
+- included simplex noise from: https://github.com/RemyUnity/sg-node-library

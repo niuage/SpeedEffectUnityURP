@@ -1,0 +1,320 @@
+{
+    "m_SGVersion": 3,
+    "m_Type": "UnityEditor.ShaderGraph.GraphData",
+    "m_ObjectId": "a7cc7c32f81e41ebb334c506e2ea7431",
+    "m_Properties": [
+        {
+            "m_Id": "30f9321618984489bf50bfa43a48d328"
+        }
+    ],
+    "m_Keywords": [],
+    "m_Dropdowns": [],
+    "m_CategoryData": [
+        {
+            "m_Id": "75c773c7f93e4641a75af0d359c24f81"
+        }
+    ],
+    "m_Nodes": [
+        {
+            "m_Id": "24c46b85fa10ca8b9b7ed8fec97e58d1"
+        },
+        {
+            "m_Id": "efe34622b911e285a109be3a991051f9"
+        },
+        {
+            "m_Id": "8ff98335b8bbe683909739600753eff2"
+        }
+    ],
+    "m_GroupDatas": [],
+    "m_StickyNoteDatas": [],
+    "m_Edges": [
+        {
+            "m_OutputSlot": {
+                "m_Node": {
+                    "m_Id": "8ff98335b8bbe683909739600753eff2"
+                },
+                "m_SlotId": 0
+            },
+            "m_InputSlot": {
+                "m_Node": {
+                    "m_Id": "efe34622b911e285a109be3a991051f9"
+                },
+                "m_SlotId": 0
+            }
+        },
+        {
+            "m_OutputSlot": {
+                "m_Node": {
+                    "m_Id": "efe34622b911e285a109be3a991051f9"
+                },
+                "m_SlotId": 1
+            },
+            "m_InputSlot": {
+                "m_Node": {
+                    "m_Id": "24c46b85fa10ca8b9b7ed8fec97e58d1"
+                },
+                "m_SlotId": 1
+            }
+        }
+    ],
+    "m_VertexContext": {
+        "m_Position": {
+            "x": 0.0,
+            "y": 0.0
+        },
+        "m_Blocks": []
+    },
+    "m_FragmentContext": {
+        "m_Position": {
+            "x": 0.0,
+            "y": 200.0
+        },
+        "m_Blocks": []
+    },
+    "m_PreviewData": {
+        "serializedMesh": {
+            "m_SerializedMesh": "{\"mesh\":{\"instanceID\":0}}",
+            "m_Guid": ""
+        },
+        "preventRotation": false
+    },
+    "m_Path": "Node Library/Noise",
+    "m_GraphPrecision": 0,
+    "m_PreviewMode": 2,
+    "m_OutputNode": {
+        "m_Id": "24c46b85fa10ca8b9b7ed8fec97e58d1"
+    },
+    "m_ActiveTargets": []
+}
+
+{
+    "m_SGVersion": 0,
+    "m_Type": "UnityEditor.ShaderGraph.SubGraphOutputNode",
+    "m_ObjectId": "24c46b85fa10ca8b9b7ed8fec97e58d1",
+    "m_Group": {
+        "m_Id": ""
+    },
+    "m_Name": "Output",
+    "m_DrawState": {
+        "m_Expanded": true,
+        "m_Position": {
+            "serializedVersion": "2",
+            "x": 0.0,
+            "y": 0.0,
+            "width": 0.0,
+            "height": 0.0
+        }
+    },
+    "m_Slots": [
+        {
+            "m_Id": "a085e74fb4cf7c808be0966231ef5dca"
+        }
+    ],
+    "synonyms": [],
+    "m_Precision": 0,
+    "m_PreviewExpanded": true,
+    "m_PreviewMode": 0,
+    "m_CustomColors": {
+        "m_SerializableColors": []
+    },
+    "IsFirstSlotValid": true
+}
+
+{
+    "m_SGVersion": 1,
+    "m_Type": "UnityEditor.ShaderGraph.Internal.Vector2ShaderProperty",
+    "m_ObjectId": "30f9321618984489bf50bfa43a48d328",
+    "m_Guid": {
+        "m_GuidSerialized": "fb6e9241-ebd1-4a39-8c81-7f8bbb9148a0"
+    },
+    "m_Name": "Input",
+    "m_DefaultRefNameVersion": 0,
+    "m_RefNameGeneratedByDisplayName": "",
+    "m_DefaultReferenceName": "Vector2_3F833E6F",
+    "m_OverrideReferenceName": "",
+    "m_GeneratePropertyBlock": true,
+    "m_UseCustomSlotLabel": false,
+    "m_CustomSlotLabel": "",
+    "m_Precision": 0,
+    "overrideHLSLDeclaration": false,
+    "hlslDeclarationOverride": 0,
+    "m_Hidden": false,
+    "m_Value": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0,
+        "w": 0.0
+    }
+}
+
+{
+    "m_SGVersion": 0,
+    "m_Type": "UnityEditor.ShaderGraph.Vector2MaterialSlot",
+    "m_ObjectId": "44d564d81616a28297097f56f69cb18d",
+    "m_Id": 0,
+    "m_DisplayName": "i",
+    "m_SlotType": 0,
+    "m_Hidden": false,
+    "m_ShaderOutputName": "i",
+    "m_StageCapability": 3,
+    "m_Value": {
+        "x": 0.0,
+        "y": 0.0
+    },
+    "m_DefaultValue": {
+        "x": 0.0,
+        "y": 0.0
+    },
+    "m_Labels": [
+        "X",
+        "Y"
+    ]
+}
+
+{
+    "m_SGVersion": 0,
+    "m_Type": "UnityEditor.ShaderGraph.Vector2MaterialSlot",
+    "m_ObjectId": "4695a309d3f83b83bcc266b376b54bdf",
+    "m_Id": 0,
+    "m_DisplayName": "Input",
+    "m_SlotType": 1,
+    "m_Hidden": false,
+    "m_ShaderOutputName": "Out",
+    "m_StageCapability": 3,
+    "m_Value": {
+        "x": 0.0,
+        "y": 0.0
+    },
+    "m_DefaultValue": {
+        "x": 0.0,
+        "y": 0.0
+    },
+    "m_Labels": [
+        "X",
+        "Y"
+    ]
+}
+
+{
+    "m_SGVersion": 0,
+    "m_Type": "UnityEditor.ShaderGraph.Vector1MaterialSlot",
+    "m_ObjectId": "4f852ed9e81a1c8b94da37fc74e0b228",
+    "m_Id": 1,
+    "m_DisplayName": "o",
+    "m_SlotType": 1,
+    "m_Hidden": false,
+    "m_ShaderOutputName": "o",
+    "m_StageCapability": 3,
+    "m_Value": 0.0,
+    "m_DefaultValue": 0.0,
+    "m_Labels": [
+        "X"
+    ]
+}
+
+{
+    "m_SGVersion": 0,
+    "m_Type": "UnityEditor.ShaderGraph.CategoryData",
+    "m_ObjectId": "75c773c7f93e4641a75af0d359c24f81",
+    "m_Name": "",
+    "m_ChildObjectList": [
+        {
+            "m_Id": "30f9321618984489bf50bfa43a48d328"
+        }
+    ]
+}
+
+{
+    "m_SGVersion": 0,
+    "m_Type": "UnityEditor.ShaderGraph.PropertyNode",
+    "m_ObjectId": "8ff98335b8bbe683909739600753eff2",
+    "m_Group": {
+        "m_Id": ""
+    },
+    "m_Name": "Property",
+    "m_DrawState": {
+        "m_Expanded": true,
+        "m_Position": {
+            "serializedVersion": "2",
+            "x": -426.3999938964844,
+            "y": 60.0,
+            "width": 103.20001220703125,
+            "height": 33.600006103515628
+        }
+    },
+    "m_Slots": [
+        {
+            "m_Id": "4695a309d3f83b83bcc266b376b54bdf"
+        }
+    ],
+    "synonyms": [],
+    "m_Precision": 0,
+    "m_PreviewExpanded": true,
+    "m_PreviewMode": 0,
+    "m_CustomColors": {
+        "m_SerializableColors": []
+    },
+    "m_Property": {
+        "m_Id": "30f9321618984489bf50bfa43a48d328"
+    }
+}
+
+{
+    "m_SGVersion": 0,
+    "m_Type": "UnityEditor.ShaderGraph.Vector1MaterialSlot",
+    "m_ObjectId": "a085e74fb4cf7c808be0966231ef5dca",
+    "m_Id": 1,
+    "m_DisplayName": "Output",
+    "m_SlotType": 0,
+    "m_Hidden": false,
+    "m_ShaderOutputName": "Output",
+    "m_StageCapability": 3,
+    "m_Value": 0.0,
+    "m_DefaultValue": 0.0,
+    "m_Labels": [
+        "X"
+    ]
+}
+
+{
+    "m_SGVersion": 1,
+    "m_Type": "UnityEditor.ShaderGraph.CustomFunctionNode",
+    "m_ObjectId": "efe34622b911e285a109be3a991051f9",
+    "m_Group": {
+        "m_Id": ""
+    },
+    "m_Name": "SG_simplex (Custom Function)",
+    "m_DrawState": {
+        "m_Expanded": true,
+        "m_Position": {
+            "serializedVersion": "2",
+            "x": -283.1999816894531,
+            "y": 12.79998779296875,
+            "width": 221.60000610351563,
+            "height": 277.5999755859375
+        }
+    },
+    "m_Slots": [
+        {
+            "m_Id": "44d564d81616a28297097f56f69cb18d"
+        },
+        {
+            "m_Id": "4f852ed9e81a1c8b94da37fc74e0b228"
+        }
+    ],
+    "synonyms": [
+        "code",
+        "HLSL"
+    ],
+    "m_Precision": 0,
+    "m_PreviewExpanded": true,
+    "m_PreviewMode": 0,
+    "m_CustomColors": {
+        "m_SerializableColors": []
+    },
+    "m_SourceType": 0,
+    "m_FunctionName": "SG_simplex",
+    "m_FunctionSource": "a8276dd6ef1409f4f9f26e3f97e29830",
+    "m_FunctionBody": " o = float2(0.1, 0.9);"
+}
+
